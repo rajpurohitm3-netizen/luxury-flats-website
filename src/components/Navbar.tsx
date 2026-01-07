@@ -71,9 +71,9 @@ export function Navbar() {
           : "bg-transparent py-6"
       }`}>
         <div className="container mx-auto px-4 md:px-8">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3 group relative z-[110]">
-              <div className="relative w-12 h-12 sm:w-16 sm:h-16 transition-all duration-500">
+            <div className="flex items-center justify-between">
+              <Link href="/" className="flex items-center gap-6 group relative z-[110]">
+                <div className="relative w-12 h-12 sm:w-16 sm:h-16 transition-all duration-500">
                   <Image 
                     src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/ec1db7e8-65fd-449d-8dc4-279559f903c3/satya_favicon-1767720240241.png?width=8000&height=8000&resize=contain" 
                     alt="Satyam Residency Logo" 
@@ -96,7 +96,7 @@ export function Navbar() {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-10">
+            <div className="hidden lg:flex items-center space-x-14 ml-auto">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
